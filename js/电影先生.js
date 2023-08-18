@@ -1,7 +1,7 @@
 /*
 电影先生 地址发布页
-http://dyxs.vip
-http://dyxs.me
+http://www.udanmu.com/
+http://www.udanmu.com/
 */
 muban.mxone5.二级.title = 'h1&&Text;.video-info-aux&&Text';
 muban.mxone5.二级.desc = '.video-info-items:eq(3)&&Text;;;.video-info-actor:eq(2)&&Text;.video-info-actor:eq(0)&&Text';
@@ -9,7 +9,7 @@ muban.mxone5.二级.content = '.video-info-content&&Text';
 var rule = {
     title:'电影先生',
     模板:'mxone5',
-    host:'http://dyxs.vip',
+    host:'http://www.udanmu.com/',
     hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(5)&&a&&href");print(src);HOST=src',
     // url:'/pianku-fyclass--------fypage---/',
     url:'/pianku-fyclassfyfilter/',
